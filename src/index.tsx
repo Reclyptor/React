@@ -2,9 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Main from './component/view/Main';
 import reportWebVitals from './reportWebVitals';
+import configureStore from './redux/store';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import configureStore from './redux/store';
+import './index.css';
 
 const store = configureStore();
 
